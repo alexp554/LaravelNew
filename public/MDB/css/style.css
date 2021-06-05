@@ -1,0 +1,133 @@
+
+		.bg {
+			background: url('https://jogjadigitalvalley.com/web/wp-content/uploads/2019/10/bannerr-jdv.jpg') no-repeat center center fixed;
+			/* -webkit-background-size: cover;
+	  //-moz-background-size: cover;
+	  //-o-background-size: cover;*/
+			background-size: 100%;
+
+		}
+
+		.bg-img {
+			background: linear-gradient(to left, rgba(115, 92, 92, 0.88), rgb(245, 241, 236)), url('https://jogjadigitalvalley.com/web/wp-content/uploads/2019/10/bannerr-jdv.jpg') no-repeat top;
+			position: fixed;
+			top: 0;
+			background-size: 100%;
+			width: 100%;
+			height: 100%;
+		}
+
+		.dv-desc {
+			color: #000;
+			text-align:justify;
+		}
+		
+		.dv-left-box{
+			display:block;
+			position:fixed; 
+			width:25%; 
+			top:150px;
+		}
+		
+		
+
+		.dv-no-border {
+			border: none !important;
+		}
+
+		.dv-card-header {
+			background: #c6060a !important;
+			padding: 5px !important;
+			border-color: #c6060a !important;
+		}
+
+		.dv-font-white {
+			color: #fff;
+		}
+
+
+		.btn-flat {
+			border-radius: 4px;
+			font-weight: 500;
+			color: #000 !important;
+		}
+
+		.btn,
+		.btn-large,
+		.btn-small {
+			border-radius: 4px;
+			font-weight: 500;
+			color: #fff;
+		}
+
+		.card:hover {
+			box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.18);
+		}
+
+		.card {
+			border-radius: 5px;
+			box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.15);
+		}
+
+		.form-group.suffix i {
+			position: absolute;
+			width: 3rem;
+			font-size: 2rem;
+			transition: color .2s;
+			top: 35px;
+			right: -15px;
+		}
+
+		.form-group.suffix i.active {
+			color: #26a69a;
+		}
+
+		.form-group.suffix input,
+		.form-group.suffix textarea {
+			margin-right: 3rem;
+		}
+
+		.form-group.suffix textarea {
+			padding-top: .8rem;
+		}
+
+		.form-group.suffix label {
+			margin-right: 3rem;
+		}
+
+		.pointer {
+			cursor: pointer;
+		}
+
+		.tabs .tab a {
+			color: #000;
+		}
+
+		/*Black color to the text*/
+
+		.tabs .tab a:hover {
+			background-color: #fff;
+			color: #000;
+		}
+
+		/*Text color on hover*/
+
+		.tabs .tab a.active {
+			background-color: #fff;
+			color: #000;
+		}
+
+		/*Background and text color when a tab is active*/
+
+		.tabs .indicator {
+			background-color: #F44336;
+		}
+
+		.input-group-text {
+			width: 50px !important;
+			padding: .375rem 1rem !important;
+		}
+
+		.gj-datepicker-md [role=right-icon] {
+			top: 10px !important;
+		}
